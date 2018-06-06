@@ -1,0 +1,36 @@
+# Seaborn paper context
+figure.figsize: 6.4, 4.4
+axes.titlesize: x-large
+axes.labelsize: large
+xtick.labelsize: large
+ytick.labelsize: large
+legend.fontsize: large
+
+axes.grid: true
+grid.linestyle: -
+grid.linewidth: 1.0
+grid.color: cbcbcb
+
+lines.linewidth: 2
+patch.linewidth: 0.4
+lines.markersize: 7
+lines.markeredgewidth: 0
+
+xtick.major.width: 1
+ytick.major.width: 1
+xtick.minor.width: 0.5
+ytick.minor.width: 0.5
+
+xtick.major.pad: 7
+ytick.major.pad: 7
+
+#axes.prop_cycle: cycler('color', ['FF0000', '6666ff', '9900cc',  '8EBA42', 'ff9900','000066'])
+                   # FF0000 : red
+                   # 6666ff : blue
+                   # 9900cc : purple
+                   # 8EBA42 : green
+                   # ff9900 : orange
+                   # 000066 : darkblue
+				   
+axes.prop_cycle: cycler('color', ['indigo', 'royalblue', 'limegreen', 'darkorange', 'red', 'darkmagenta']) #+cycler('linestyle', ['-', ':','--','-.','-','--']) 
+                               
